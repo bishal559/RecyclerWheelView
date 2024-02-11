@@ -16,7 +16,7 @@ First of all, this lib is based on androidx, *if your library do not migrate to 
 
 there are two examples' results about recyclerwheelview in this project, if you used recyclerwheelview, you can  make this effect easily.
 
-### String wheel view
+###  wheel view
 ![Screenshot 2024-02-11 at 10 40 38](https://github.com/bishal559/RecyclerWheelView/assets/65449966/0d7e891f-5445-4da8-ac7e-a3756b21ed89)
 
 
@@ -33,7 +33,7 @@ The attributes of StringWheelView and its explain as follows:
 | wheelNormalItemBackground   | the background of unselected String item（can use costom drawable）                   | app:wheelNormalItemBackground="@drawable/string_nor_wheel_bg" |
 | wheelItemHeight             | the height of String item, attention, the height of selected String item and unselected String item is same | app:wheelItemHeight="100dp"               |
 
-### Custom wheel view
+### Background wheel view
 
 ![Screenshot 2024-02-11 at 11 12 21](https://github.com/bishal559/RecyclerWheelView/assets/65449966/f741155a-92ac-4ca7-b2bc-200375a9fe0b)
 
