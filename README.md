@@ -1,5 +1,4 @@
 # RecyclerWheelView
-[中文文档](https://github.com/wongzy/RecyclerWheelView/blob/master/README_CHINESE.md)
 
 An efficient Android WheelView  based on RecyclerView, which is easy to use, and it can customized by yourself.
 
@@ -7,22 +6,20 @@ An efficient Android WheelView  based on RecyclerView, which is easy to use, and
 
 First of all, this lib is based on androidx, *if your library do not migrate to androidx, there might be some problems* if you used this.
 
-If you want to use this library, you should add those to your module's gradle
 
-```
-implementation 'cn.wongzhenyu:recyclerwheelview:0.0.3'
-implementation 'androidx.recyclerview:recyclerview:XXX'
-```
 
-> Because RecyclerWheelView have dependency of recyclerview(library of androidx), and to avoid the conflicts of library version, I used compileonly to import recyclerview library, so you should add recyclerview by yourself.
+
+
+
 
 ## Result
 
 there are two examples' results about recyclerwheelview in this project, if you used recyclerwheelview, you can  make this effect easily.
 
 ### String wheel view
+![Screenshot 2024-02-11 at 10 40 38](https://github.com/bishal559/RecyclerWheelView/assets/65449966/0d7e891f-5445-4da8-ac7e-a3756b21ed89)
 
-<img width="360" height="780" src="https://i.loli.net/2020/05/10/f8uC3jUiHFA6qZY.jpg"/>
+
 
 The attributes of StringWheelView and its explain as follows:
 
@@ -38,7 +35,8 @@ The attributes of StringWheelView and its explain as follows:
 
 ### Custom wheel view
 
-<img width="360" height="780" src="https://i.loli.net/2020/05/10/WizePB59CjLK1gw.jpg"/>
+![Screenshot 2024-02-11 at 11 12 21](https://github.com/bishal559/RecyclerWheelView/assets/65449966/f741155a-92ac-4ca7-b2bc-200375a9fe0b)
+
 
 You can customize RecyclerWheelView just like recycler view， you can see how it realize in this demo project.
 
